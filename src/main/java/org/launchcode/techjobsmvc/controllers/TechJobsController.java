@@ -11,10 +11,12 @@ public class TechJobsController {
 
     static HashMap<String, String> actionChoices = new HashMap<>();
 
+
     static HashMap<String, String> columnChoices = new HashMap<>();
 
     @ModelAttribute("actions")
     public static Map<String, String> getActionChoices() {
+
         return actionChoices;
     }
 }
